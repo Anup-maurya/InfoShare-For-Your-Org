@@ -20,4 +20,4 @@ jobs:
       - name: Build the Docker image
         run: docker build -t anup-maurya/cicd-pipeline-docker:latest .  # Choose the desired image name
       - name: Push to Docker Hub
-        run: docker push anup-maurya/cicd-pipeline-docker:latest  # Push the image you built
+        run: docker push anupmaurya001/cicd-pipeline-docker:latest  # Push the image you built
