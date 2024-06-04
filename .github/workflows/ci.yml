@@ -21,4 +21,4 @@ jobs:
     - name: Build the Docker image
       run: docker build -t anup-maurya/cicd-pipeline-docker .
     - name: Push to Docker 
-      run: docker push anupmaurya001/cicd-pipeline-docker:latest
+      run: docker push anup-maurya/cicd-pipeline-docker:latest
