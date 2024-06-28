@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 # where available (npm@5+)
 COPY package*.json ./
 
-RUN npm build
+RUN npm run build
 # If you are building your code for production
 # RUN npm ci --only=production
 
@@ -16,4 +16,4 @@ RUN npm build
 COPY . .
 
 EXPOSE 8080 
-CMD [ "npm", "build" ]
+CMD [ "npm", "run ", "build" ]
