@@ -1,5 +1,3 @@
-import dotenv from 'dotenv';
-dotenv.config();
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -9,7 +7,7 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey:process.env.VITE_FIREBASE_API_KEY,
+  apiKey:import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "infoshare-8c065.firebaseapp.com",
   projectId: "infoshare-8c065",
   storageBucket: "infoshare-8c065.appspot.com",
