@@ -3,11 +3,11 @@ import { initializeApp } from "firebase/app";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
-console.log(import.meta.env.VITE_FIREBASE_API_KEY);
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  //apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  apiKey: "AIzaSyDJ0G3VOSJ3mz40kAqJKszLPyTtCorzHoc",
   authDomain: "infoshare-ae778.firebaseapp.com",
   projectId: "infoshare-ae778",
   storageBucket: "infoshare-ae778.appspot.com",
