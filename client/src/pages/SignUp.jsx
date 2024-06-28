@@ -1,6 +1,7 @@
 import { Alert, Button, Label, Spinner, TextInput } from 'flowbite-react';
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { Avatar, AvatarGroup } from "flowbite-react";
 import OAuth from '../components/OAuth';
 
 export default function SignUp() {
@@ -39,20 +40,42 @@ export default function SignUp() {
   };
   return (
     <div className='min-h-screen mt-20'>
-      <div className='flex p-3 max-w-3xl mx-auto flex-col md:flex-row md:items-center gap-5'>
-        {/* left */}
-        <div className='flex-1'>
-          <Link to='/' className='font-bold dark:text-white text-4xl'>
-            <span className='px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white'>
-              Sahand's
-            </span>
-            Blog
-          </Link>
-          <p className='text-sm mt-5'>
-            This is a demo project. You can sign up with your email and password
-            or with Google.
-          </p>
+    <div className='flex p-2 max-w-5xl mx-auto flex-col md:flex-row md:items-center gap-5'>
+      {/* left */}
+      <div className='flex-1'>
+      <div className="max-w-md rounded-3xl bg-gradient-to-t from-blue-700 via-blue-700 to-blue-600  py-10 text-white sm:px-10 md:m-6 md:mr-8 px-4" >
+        <div className='mb-3 '>
+        <Link to='/' className='font-bold  dark:text-white text-2xl'>
+          <span className='px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white'>
+            InfoShare
+          </span>
+          For Your Org
+        </Link>
+
         </div>
+     
+  <p className="mb-4 text-2xl font-bold md:text-4xl md:leading-snug">
+    Start your <br />
+    journey with us
+  </p>
+  <p className="mb-28 leading-relaxed text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nisi voluptas a officia. Omnis.</p>
+  <div className="bg-blue-600/80 rounded-2xl px-4 py-8">
+   
+      <div className="flex content-center items-center  gap-1">
+      <AvatarGroup className=' border-gray-300 items-center content-center dark:border-gray-600 md:mb-0 md:mr-4 md:border-r md:pr-4'>
+      <Avatar img="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/thomas-lean.png" rounded stacked />
+      <Avatar img="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/thomas-lean.png" rounded stacked />
+      <Avatar img="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/thomas-lean.png" rounded stacked />
+      <Avatar img="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/thomas-lean.png" rounded stacked />
+      <Avatar.Counter total={99} href="#" />
+    </AvatarGroup>
+      <p>Over 2000+ People Using InfoShare</p>
+  </div>
+     
+  </div>
+</div>
+    
+      </div>
         {/* right */}
 
         <div className='flex-1'>

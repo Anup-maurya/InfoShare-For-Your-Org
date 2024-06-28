@@ -1,35 +1,22 @@
 export default function About() {
   return (
-    <div className='min-h-screen flex items-center justify-center'>
-      <div className='max-w-2xl mx-auto p-3 text-center'>
-        <div>
-          <h1 className='text-3xl font font-semibold text-center my-7'>
-            About Sahand' Blog
-          </h1>
-          <div className='text-md text-gray-500 flex flex-col gap-6'>
-            <p>
-              Welcome to Sahand's Blog! This blog was created by Sahand Ghavidel
-              as a personal project to share his thoughts and ideas with the
-              world. Sahand is a passionate developer who loves to write about
-              technology, coding, and everything in between.
-            </p>
+   
 
-            <p>
-              On this blog, you'll find weekly articles and tutorials on topics
-              such as web development, software engineering, and programming
-              languages. Sahand is always learning and exploring new
-              technologies, so be sure to check back often for new content!
-            </p>
-
-            <p>
-              We encourage you to leave comments on our posts and engage with
-              other readers. You can like other people's comments and reply to
-              them as well. We believe that a community of learners can help
-              each other grow and improve.
-            </p>
-          </div>
-        </div>
-      </div>
+<section className="bg-white dark:bg-gray-900">
+<div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+    <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+    <p className="mb-6 font-light  text-green-500 md:text-lg dark:text-gray-400">WE ARE PEOPLE OF #IMPACTMILLIONS</p>
+        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">We didn't reinvent the wheel</h2>
+       
+        <p className="mb-4">We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need.</p>
+        <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick.</p>
     </div>
+    <div className="grid grid-cols-2 gap-4 mt-8">
+        <img className="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1"/>
+        <img className="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2"/>
+    </div>
+</div>
+</section>
+
   );
 }
