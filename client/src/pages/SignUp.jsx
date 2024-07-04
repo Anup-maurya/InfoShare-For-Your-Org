@@ -55,7 +55,7 @@ export default function SignUp() {
         </div>
      
   <p className="mb-4 text-2xl font-bold md:text-4xl md:leading-snug">
-    Start your <br />
+    Start your <br/>
     journey with us
   </p>
   <p className="mb-28 leading-relaxed text-gray-200">Share achievements, access knowledge, and stay informed about organizational updates.</p>
