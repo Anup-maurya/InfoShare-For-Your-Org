@@ -58,7 +58,7 @@ export default function SignUp() {
     Start your <br/>
     journey with us
   </p>
-  <p className="mb-28 leading-relaxed text-gray-200">Share achievements, access knowledge, and stay informed about organizational updates.</p>
+  <p className="mb-28 leading-relaxed text-gray-200">Share achievements,  access knowledge, and stay informed about organizational updates.</p>
   <div className="bg-blue-600/80 rounded-2xl px-4 py-8">
    
       <div className="flex content-center items-center  gap-1">
